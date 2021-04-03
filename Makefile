@@ -1,5 +1,5 @@
 test:
-	@pytest
+	@pytest -v
 
 lint:
 	@flakehell lint
