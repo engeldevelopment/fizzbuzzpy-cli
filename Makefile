@@ -3,3 +3,6 @@ test:
 
 lint:
 	@flakehell lint
+
+black:
+	@black fizzbuzz/ tests/
