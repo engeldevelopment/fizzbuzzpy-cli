@@ -1,5 +1,8 @@
 test:
-	@pytest
+	@pytest -v
 
 lint:
 	@flakehell lint
+
+black:
+	@black fizzbuzz/ tests/

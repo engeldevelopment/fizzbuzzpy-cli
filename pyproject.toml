@@ -1,7 +1,8 @@
 [tool.flakehell]
+max_line_length = 120
 format = "grouped"
-max_line_length = 80
 source = true
+statistics = true
 
 [tool.flakehell.plugins]
 pycodestyle = ["+*"]
@@ -14,6 +15,6 @@ pylint = ["+*"]
 flake8-simplify = ["+*"]
 
 [tool.flakehell.exceptions."tests/"]
-pycodestyle = ["-F401"]
+pycodestyle = ["-F401", "-E501"]
 pyflakes = ["-*"]
 cohesion = ["-*"]
