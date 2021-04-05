@@ -2,6 +2,8 @@
 .vscode/
 __pycache__
 media/
+dist/
+*.egg-info/
 htmlcov/
 .coverage
 .pytest_cache

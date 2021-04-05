@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-from calculator import value_of
-
 import click
+
+from fizzbuzz.calculator import value_of
 
 
 @click.command()
